@@ -55,12 +55,6 @@ const generateBody = (xrayUrl, singboxUrl, clashUrl, baseUrl) => `
   </body>
 `;
 
-const generateDarkModeToggle = () => `
-<button id="darkModeToggle" class="btn btn-outline-secondary">
-<i class="fas fa-moon"></i>
-</button>
-`;
-
 <script type="text/javascript">
     window.$crisp = [];
     window.CRISP_WEBSITE_ID = "9b9098aa-ebdc-4f98-bd69-cdd8e0ccce9e";  
@@ -72,6 +66,8 @@ const generateDarkModeToggle = () => `
       d.getElementsByTagName("head")[0].appendChild(s);
     })();
   </script>
+`;
+
 `;
 
 const generateCardHeader = () => `
