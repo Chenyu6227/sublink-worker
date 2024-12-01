@@ -16,7 +16,7 @@ const generateHead = () => `
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="HK-BEUP是一款强大的在线订阅链接转换工具,支持V2Ray/Xray、SingBox、Clash等多种客户端，提供自定义规则和高效转换，帮助您轻松管理和优化代理节点。">
-    <meta name="keywords" content="Sublink, Worker, 订阅链接, 代理, Xray, SingBox, Clash, V2Ray, 自定义规则, 在线, 订阅转换, 机场订阅, 节点管理, 节点解析">
+    <meta name="keywords" content="HK-BEUP, 订阅链接, 代理, Xray, SingBox, Clash, V2Ray, 自定义规则, 在线, 订阅转换, 机场订阅, 节点管理, 节点解析">
     <title>HK-BEUP - 轻量高效的订阅转换工具 | 支持V2Ray/Xray、SingBox、Clash</title>
     <meta property="og:title" content="HK-BEUP - 轻量高效的订阅链接转换工具">
     <meta property="og:description" content="强大的在线订阅链接转换工具,支持多种代理协议和自定义规则">
@@ -55,7 +55,16 @@ const generateBody = (xrayUrl, singboxUrl, clashUrl, baseUrl) => `
   </body>
 `;
 
+const generateDarkModeToggle = () => `
+<button id="darkModeToggle" class="btn btn-outline-secondary">
+<i class="fas fa-moon"></i>
+</button>
+`;
 
+const generateGithubLink = () => `
+<a href="https://a" target="_blank" rel="noopener noreferrer" class="github-link">
+<i class="fab fa-github"></i>
+</a>
 `;
 
 const generateCardHeader = () => `
@@ -87,7 +96,7 @@ const generateForm = () => `
           <span class="tooltip-icon ms-2">
             <i class="fas fa-question-circle"></i>
             <span class="tooltip-content">
-              此功能是实验性的，可能无法按预期工作。您可以在此处粘贴自己的基本配置。转到 <a href="https://github.com/yixiu001/sublink-worker/blob/main/docs/base-config.md" target="_blank">文档</a> 了解更多信息。
+              此功能是实验性的，可能无法按预期工作。您可以在此处粘贴自己的基本配置。转到 <a href="https://github.com/001/sublink-worker/blob/main/docs/base-config.md" target="_blank">文档</a> 了解更多信息。
             </span>
           </span>
         </div>
