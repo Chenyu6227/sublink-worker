@@ -61,10 +61,7 @@ const generateDarkModeToggle = () => `
 </button>
 `;
 
-const generateGithubLink = () => `
-<a href="https://github.com/yixiu001/sublink-worker" target="_blank" rel="noopener noreferrer" class="github-link">
-<i class="fab fa-github"></i>
-</a>
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="9b9098aa-ebdc-4f98-bd69-cdd8e0ccce9e";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 `;
 
 const generateCardHeader = () => `
